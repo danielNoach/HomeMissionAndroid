@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HomeMissonAndroid</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="plese_enter_code">אנא הכנס קוד אימות</string>
+    <string name="check_if_code_valid">אנא וודא שקוד האימות נכון</string>
+    <string name="check_password_equals">אנא ודא שהסיסמאות זהות</string>
+    <string name="enter_correct_emailAddres">אנא הכנס כתובת מייל חוקית</string>
+    <string name="no_passwordCon">אנא הכנס את הסיסמא שנית</string>
+    <string name="no_password">אנא הכנס סיסמא</string>
+    <string name="no_email">אנא הכנס כתובת מייל</string>
+    <string name="no_fullName">אנא הכנס שם מלא</string>
+    <string name="welcome">"ברוך הבא "</string>
+</resources>

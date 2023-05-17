@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/registerFrag">
+
+    <fragment
+        android:id="@+id/registerFrag"
+        android:name="com.example.homemissonandroid.RegisterFrag"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFrag_to_registerationEnd"
+            app:destination="@id/registerationEnd" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerationEnd"
+        android:name="com.example.homemissonandroid.RegisterationEnd"
+        android:label="fragment_registeration_end"
+        tools:layout="@layout/fragment_registeration_end" >
+        <argument
+            android:name="fullName"
+            app:argType="string" />
+    </fragment>
+</navigation>
