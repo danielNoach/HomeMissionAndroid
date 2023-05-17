@@ -43,7 +43,7 @@ public class CustomDialog extends Dialog {
         if (window != null) {
             WindowManager.LayoutParams params = window.getAttributes();
             params.width = ViewGroup.LayoutParams.MATCH_PARENT;
-            params.height = ViewGroup.LayoutParams.MATCH_PARENT;
+            params.height = ViewGroup.LayoutParams.WRAP_CONTENT;
             window.setAttributes(params);
         }
 

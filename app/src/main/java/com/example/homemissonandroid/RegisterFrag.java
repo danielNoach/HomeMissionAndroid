@@ -16,7 +16,6 @@ import java.util.regex.Pattern;
 
 public class RegisterFrag extends Fragment implements CustomDialog.OnDialogResultListener {
     FragmentRegisterBinding binding;
-    boolean isBack;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
